@@ -18,7 +18,7 @@ public class Login_TC {
 		Login_Pom login = new Login_Pom(driver);
 		
 		login.enter_username("facebook");
-		login.enter_password("12345");
+		login.enter_password("abcdef");
 		login.click_log();
 				
 	}
